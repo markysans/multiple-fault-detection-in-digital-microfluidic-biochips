@@ -10,6 +10,7 @@ int main()
 	scanf("%s",s);
 	printf("Enter the biochip size(M*N)");
 	scanf("%d%d",&m,&n);
+
 	fp=fopen(s,"w");
 	fprintf(fp,"%d %d\n",m,n);
 	a=(int**)malloc(m*n*sizeof(int*));
