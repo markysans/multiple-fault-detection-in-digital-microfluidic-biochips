@@ -443,6 +443,10 @@ int main()
 	printf("\nThe test time for open faults only is : %d",(6*m+3*n-3));
     printf("\nThe test time required is : %d\n",test_time);
     printf("The diagnosis time required is : %d\n",diagnosis_time);
+    int ii, jj;
+    for(int ii=0;ii<m*n; ii++){
+    	
+    }
     free(faultlist);
     return 0;
 
